@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
 
+//Building block
+//We have the component info
 @Component({
-  selector: 'my-app',
+  selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: ['./app.component.scss']
 })
-export class AppComponent  {
-  name = 'Angular';
+
+//This is where we have the properties/methods for this component
+//Also we have the logic for this component
+export class AppComponent {
+  title = 'ng6';
 }
